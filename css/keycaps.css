@@ -379,6 +379,26 @@ footer {
     .tech-list {
         grid-template-columns: 1fr;
     }
+         .logo {
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: var(--accent);
+        font-family: 'Courier New', monospace;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 10px;
+    }
+
+    .nav-links a {
+        color: var(--light);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.6rem;
+        transition: all 0.3s;
+        position: relative;
+    }
 }
 
 @media (max-width: 480px) {
